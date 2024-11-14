@@ -38,6 +38,7 @@ private:
     void displayVector(const std::vector<double>& v) const;
     void displayMatrix(const MatrixOperations::Matrix& m) const;
     void displayEquationSolution(const EquationSolver::Solution& solution);
+    void displayResult(double value);
 
 public:
     Calculator();
